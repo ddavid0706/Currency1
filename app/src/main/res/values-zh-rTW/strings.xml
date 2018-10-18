@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Currency</string>
+    <string name="problem">問題</string>
+    <string name="please_enter_ntd">請輸入您的台幣金額</string>
+    <string name="result">結果</string>
+    <string name="usd_is">美金 是</string>
+    <string name="ok">確認</string>
+    <string name="ntd">台幣</string>
+    <string name="jp">日幣</string>
+    <string name="usd">美金</string>
+    <string name="go">計算</string>
+</resources>
