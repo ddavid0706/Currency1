@@ -26,19 +26,19 @@ public class MainActivity extends AppCompatActivity {
         String str = ndt.getText().toString();
 
         if (str.length() != 0 ){
-            double NDT = Double.parseDouble(str);
-            float usd = 30.9f;
-            double result = (NDT/usd);
-            new AlertDialog.Builder(this)
-                    .setTitle("Result")
-                    .setMessage("USD is " + (float)result)
-                    .setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
-                            ndt.setText("");
-                        }
-                    })
-                    .show();
+//            double NDT = Double.parseDouble(str);
+//            float usd = 30.9f;
+//            double result = (NDT/usd);
+//            new AlertDialog.Builder(this)
+//                    .setTitle("Result")
+//                    .setMessage("USD is " + (float)result)
+//                    .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+//                        @Override
+//                        public void onClick(DialogInterface dialog, int which) {
+//                            ndt.setText("");
+//                        }
+//                    })
+//                    .show();
 
         }else{
             new AlertDialog.Builder(this)
